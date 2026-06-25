@@ -13,6 +13,9 @@ local.properties
 # Kotlin
 .kotlin/
 
+# ローカル実行用にダウンロードした依存（run.sh が使う）
+libs/
+
 # macOS
 .DS_Store
 

@@ -34,6 +34,18 @@ docs(log): 週3の学びを記録
 3. 序盤（Week 1〜4）の言語練習は **Kotlin Playground**（play.kotlinlang.org）か、Android Studio の `.kt` ファイル + `main()` 実行でも可。重い Android プロジェクトを毎回立ち上げなくていい。
 4. Week 7 で初めて空の Compose プロジェクト（Empty Activity）を新規作成する。
 
+### ローカルCLIで `.kt` を実行する（任意・おすすめ）
+
+Playground を開かず、ターミナルから直接練習ファイルを動かしたい場合:
+
+```bash
+brew install kotlin          # kotlinc / kotlin を導入（Kotlin 2.4.0）
+./run.sh week01-syntax/Basics.kt
+```
+
+`run.sh` は指定した `.kt` をコンパイルして `main()` を実行するだけのヘルパー。
+複数ファイルもまとめて渡せる（例: `./run.sh week02-functions-scope/*.kt`）。
+
 ---
 
 ## 全体像
